@@ -6,6 +6,7 @@
 
 > Tip: 你可以学习Dart语言特征使用DartPad。[打开DartPad][3]
 
+
 ## Dart的基本使用
 
 下面的代码使用了Dart的最基本的特征
@@ -73,6 +74,166 @@ App执行主要入口，更多信息参考[The main() function][5]
 
 ## 关键字
 
+下面的这个表格列出了Dart语言专门的关键词
+
+<table class="table table-striped nowrap">
+  <tbody>
+    <tr>
+      <td>
+<a href="#abstract-classes">abstract</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td>
+<a href="#important-concepts">dynamic</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td>
+<a href="#implicit-interfaces">implements</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td>
+<a href="#importing-only-part-of-a-library">show</a>&nbsp;<sup title="contextual keyword" alt="contextual keyword">1</sup>
+</td>
+    </tr>
+    <tr>
+      <td>
+<a href="#type-test-operators">as</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td><a href="#if-and-else">else</a></td>
+      <td>
+<a href="#using-libraries">import</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td>
+<a href="#class-variables-and-methods">static</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+    </tr>
+    <tr>
+      <td><a href="#assert">assert</a></td>
+      <td><a href="#enumerated-types">enum</a></td>
+      <td><a href="#for-loops">in</a></td>
+      <td><a href="#extending-a-class">super</a></td>
+    </tr>
+    <tr>
+      <td>
+<a href="#asynchrony-support">async</a>&nbsp;<sup title="contextual keyword" alt="contextual keyword">1</sup>
+</td>
+      <td>
+<a href="/guides/libraries/create-library-packages">export</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td>
+<a href="https://stackoverflow.com/questions/28595501/was-the-interface-keyword-removed-from-dart" class="external">interface</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td><a href="#switch-and-case">switch</a></td>
+    </tr>
+    <tr>
+      <td>
+<a href="#asynchrony-support">await</a>&nbsp;<sup title="limited reserved word" alt="limited reserved word">3</sup>
+</td>
+      <td><a href="#extending-a-class">extends</a></td>
+      <td><a href="#type-test-operators">is</a></td>
+      <td>
+<a href="#generators">sync</a>&nbsp;<sup title="contextual keyword" alt="contextual keyword">1</sup>
+</td>
+    </tr>
+    <tr>
+      <td><a href="#break-and-continue">break</a></td>
+      <td>
+<a href="https://stackoverflow.com/questions/24929659/what-does-external-mean-in-dart" class="external">external</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td>
+<a href="#libraries-and-visibility">library</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td><a href="#constructors">this</a></td>
+    </tr>
+    <tr>
+      <td><a href="#switch-and-case">case</a></td>
+      <td>
+<a href="#factory-constructors">factory</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td>
+<a href="#adding-features-to-a-class-mixins">mixin</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td><a href="#throw">throw</a></td>
+    </tr>
+    <tr>
+      <td><a href="#catch">catch</a></td>
+      <td><a href="#booleans">false</a></td>
+      <td><a href="#using-constructors">new</a></td>
+      <td><a href="#booleans">true</a></td>
+    </tr>
+    <tr>
+      <td><a href="#instance-variables">class</a></td>
+      <td><a href="#final-and-const">final</a></td>
+      <td><a href="#default-value">null</a></td>
+      <td><a href="#catch">try</a></td>
+    </tr>
+    <tr>
+      <td><a href="#final-and-const">const</a></td>
+      <td><a href="#finally">finally</a></td>
+      <td>
+<a href="#catch">on</a>&nbsp;<sup title="contextual keyword" alt="contextual keyword">1</sup>
+</td>
+      <td>
+<a href="#typedefs">typedef</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+    </tr>
+    <tr>
+      <td><a href="#break-and-continue">continue</a></td>
+      <td><a href="#for-loops">for</a></td>
+      <td>
+<a href="#overridable-operators">operator</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td><a href="#variables">var</a></td>
+    </tr>
+    <tr>
+      <td>
+<a href="/guides/language/sound-problems#the-covariant-keyword">covariant</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td>
+<a href="#functions">Function</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td>
+<a href="/guides/libraries/create-library-packages#organizing-a-library-package">part</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td><a href="https://medium.com/dartlang/dart-2-legacy-of-the-void-e7afb5f44df0" class="external">void</a></td>
+    </tr>
+    <tr>
+      <td><a href="#switch-and-case">default</a></td>
+      <td>
+<a href="#getters-and-setters">get</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td><a href="#catch">rethrow</a></td>
+      <td><a href="#while-and-do-while">while</a></td>
+    </tr>
+    <tr>
+      <td>
+<a href="#lazily-loading-a-library">deferred</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td>
+<a href="#importing-only-part-of-a-library">hide</a>&nbsp;<sup title="contextual keyword" alt="contextual keyword">1</sup>
+</td>
+      <td><a href="#functions">return</a></td>
+      <td><a href="#adding-features-to-a-class-mixins">with</a></td>
+    </tr>
+    <tr>
+      <td><a href="#while-and-do-while">do</a></td>
+      <td><a href="#if-and-else">if</a></td>
+      <td>
+<a href="https://api.dartlang.org/stable/dart-core/Set-class.html" class="external">set</a>&nbsp;<sup title="built-in-identifier" alt="built-in-identifier">2</sup>
+</td>
+      <td>
+<a href="#generators">yield</a>&nbsp;<sup title="limited reserved word" alt="limited reserved word">3</sup>
+</td>
+    </tr>
+  </tbody>
+</table>
+
+避免使用这些关键字作为标识符或者变量，然而如果必须使用，带有上标的关键字才可以作为标识符或者变量
+
+*
+
+*
+
+*
+
+其余的关键字都是保留字，不允许作为标识符或者变量
 
 
 [1]: https://www.dartlang.org/guides/libraries/library-tour
